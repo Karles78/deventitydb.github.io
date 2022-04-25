@@ -1,5 +1,5 @@
 function unsubscribeMailing(url) {
-    var id = getQueryStringValue('subcription-id');
+    var id = getQueryStringValue('subscription-id');
     if (id) {
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {      

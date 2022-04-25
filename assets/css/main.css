@@ -1004,4 +1004,38 @@ main .docsContainer .docsPage .docsLayout .docsIndex .indexBlock .indexContent .
 
 .unsubscribeMailingLayout p { font-size: 16px; font-weight: 400; color: #171717; }
 
+.orderCompletedLayout { flex-grow: 1; flex-shrink: 1; }
+
+.orderCompletedLayout .orderCompletedMain { max-width: 800px; width: 100%; padding-top: 3rem; padding-bottom: 5rem; }
+
+.orderCompletedLayout .orderCompletedMain .orderCompletedWaiting { height: 200px; }
+
+.orderCompletedLayout .orderCompletedMain h1 { text-align: center; }
+
+.orderCompletedLayout .orderCompletedResult { display: none; }
+
+.orderCompletedLayout .orderCompletedError { display: none; }
+
+.orderCompletedLayout p { font-size: 16px; font-weight: 400; color: #171717; }
+
+.legalContainer { max-width: 1200px; width: 100%; margin: 0 auto; margin-bottom: 4rem; }
+
+.legalContainer .legalHeader { margin-bottom: 2rem; }
+
+.legalContainer h1 { padding-top: 2rem; padding-left: 2rem; padding-right: 2rem; padding-bottom: 0; text-align: center; font-size: 2.5rem; font-weight: 600; }
+
+.legalContainer h2 { font-size: 1.75rem; font-weight: 600; margin-top: 30px; }
+
+.legalContainer .cky-audit-table-element h5 { font-size: 1.2rem; font-weight: 600; margin-top: 20px; }
+
+.legalContainer li::marker { font-size: 1.75rem; font-weight: 600; }
+
+.legalContainer li ol li::marker { font-size: unset; font-weight: unset; }
+
+.legalContainer a.cky-banner-element { margin: 0 0 1rem 0; padding: 8px 30px; border: 1px solid #DEE2E6; box-sizing: border-box; border-radius: 2px; cursor: pointer; display: inline-block; }
+
+.legalContainer a.cky-banner-element:hover { background-color: #DEE2E6; }
+
+@media (max-width: 800px) { main .legalContainer { padding: 0 2rem; } }
+
 /*# sourceMappingURL=main.css.map */

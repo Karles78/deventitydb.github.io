@@ -2929,6 +2929,36 @@ references:
   commentId: Overload:NEntityDb.Data.Common.DbInstance.ExecuteTriggers
   fullName: NEntityDb.Data.Common.DbInstance.ExecuteTriggers
   nameWithType: DbInstance.ExecuteTriggers
+- uid: NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync(NEntityDb.Data.Context.IDbSelectContext,NEntityDb.Data.Model.DbTriggerAction)
+  name: ExecuteTriggersAsync(IDbSelectContext, DbTriggerAction)
+  href: api/NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync.html#NEntityDb_Data_Common_DbInstance_ExecuteTriggersAsync_NEntityDb_Data_Context_IDbSelectContext_NEntityDb_Data_Model_DbTriggerAction_
+  commentId: M:NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync(NEntityDb.Data.Context.IDbSelectContext,NEntityDb.Data.Model.DbTriggerAction)
+  fullName: NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync(NEntityDb.Data.Context.IDbSelectContext, NEntityDb.Data.Model.DbTriggerAction)
+  nameWithType: DbInstance.ExecuteTriggersAsync(IDbSelectContext, DbTriggerAction)
+- uid: NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbStatementContext},NEntityDb.Data.Model.DbTriggerAction)
+  name: ExecuteTriggersAsync(List<IDbStatementContext>, DbTriggerAction)
+  href: api/NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync.html#NEntityDb_Data_Common_DbInstance_ExecuteTriggersAsync_System_Collections_Generic_List_NEntityDb_Data_Context_IDbStatementContext__NEntityDb_Data_Model_DbTriggerAction_
+  commentId: M:NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbStatementContext},NEntityDb.Data.Model.DbTriggerAction)
+  name.vb: ExecuteTriggersAsync(List(Of IDbStatementContext), DbTriggerAction)
+  fullName: NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync(System.Collections.Generic.List<NEntityDb.Data.Context.IDbStatementContext>, NEntityDb.Data.Model.DbTriggerAction)
+  fullName.vb: NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync(System.Collections.Generic.List(Of NEntityDb.Data.Context.IDbStatementContext), NEntityDb.Data.Model.DbTriggerAction)
+  nameWithType: DbInstance.ExecuteTriggersAsync(List<IDbStatementContext>, DbTriggerAction)
+  nameWithType.vb: DbInstance.ExecuteTriggersAsync(List(Of IDbStatementContext), DbTriggerAction)
+- uid: NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync(System.Collections.Generic.List{NEntityDb.Data.Model.DbTrigger},NEntityDb.Data.Context.IDbStatementContext)
+  name: ExecuteTriggersAsync(List<DbTrigger>, IDbStatementContext)
+  href: api/NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync.html#NEntityDb_Data_Common_DbInstance_ExecuteTriggersAsync_System_Collections_Generic_List_NEntityDb_Data_Model_DbTrigger__NEntityDb_Data_Context_IDbStatementContext_
+  commentId: M:NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync(System.Collections.Generic.List{NEntityDb.Data.Model.DbTrigger},NEntityDb.Data.Context.IDbStatementContext)
+  name.vb: ExecuteTriggersAsync(List(Of DbTrigger), IDbStatementContext)
+  fullName: NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync(System.Collections.Generic.List<NEntityDb.Data.Model.DbTrigger>, NEntityDb.Data.Context.IDbStatementContext)
+  fullName.vb: NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync(System.Collections.Generic.List(Of NEntityDb.Data.Model.DbTrigger), NEntityDb.Data.Context.IDbStatementContext)
+  nameWithType: DbInstance.ExecuteTriggersAsync(List<DbTrigger>, IDbStatementContext)
+  nameWithType.vb: DbInstance.ExecuteTriggersAsync(List(Of DbTrigger), IDbStatementContext)
+- uid: NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync*
+  name: ExecuteTriggersAsync
+  href: api/NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync.html
+  commentId: Overload:NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync
+  fullName: NEntityDb.Data.Common.DbInstance.ExecuteTriggersAsync
+  nameWithType: DbInstance.ExecuteTriggersAsync
 - uid: NEntityDb.Data.Common.DbInstance.InsertData(NEntityDb.Model.INonQueryRequest)
   name: InsertData(INonQueryRequest)
   href: api/NEntityDb.Data.Common.DbInstance.InsertData.html#NEntityDb_Data_Common_DbInstance_InsertData_NEntityDb_Model_INonQueryRequest_
@@ -3163,6 +3193,21 @@ references:
   commentId: Overload:NEntityDb.Data.Common.DbInstance.OnDeletedData
   fullName: NEntityDb.Data.Common.DbInstance.OnDeletedData
   nameWithType: DbInstance.OnDeletedData
+- uid: NEntityDb.Data.Common.DbInstance.OnDeletedDataAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbDeleteContext})
+  name: OnDeletedDataAsync(List<IDbDeleteContext>)
+  href: api/NEntityDb.Data.Common.DbInstance.OnDeletedDataAsync.html#NEntityDb_Data_Common_DbInstance_OnDeletedDataAsync_System_Collections_Generic_List_NEntityDb_Data_Context_IDbDeleteContext__
+  commentId: M:NEntityDb.Data.Common.DbInstance.OnDeletedDataAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbDeleteContext})
+  name.vb: OnDeletedDataAsync(List(Of IDbDeleteContext))
+  fullName: NEntityDb.Data.Common.DbInstance.OnDeletedDataAsync(System.Collections.Generic.List<NEntityDb.Data.Context.IDbDeleteContext>)
+  fullName.vb: NEntityDb.Data.Common.DbInstance.OnDeletedDataAsync(System.Collections.Generic.List(Of NEntityDb.Data.Context.IDbDeleteContext))
+  nameWithType: DbInstance.OnDeletedDataAsync(List<IDbDeleteContext>)
+  nameWithType.vb: DbInstance.OnDeletedDataAsync(List(Of IDbDeleteContext))
+- uid: NEntityDb.Data.Common.DbInstance.OnDeletedDataAsync*
+  name: OnDeletedDataAsync
+  href: api/NEntityDb.Data.Common.DbInstance.OnDeletedDataAsync.html
+  commentId: Overload:NEntityDb.Data.Common.DbInstance.OnDeletedDataAsync
+  fullName: NEntityDb.Data.Common.DbInstance.OnDeletedDataAsync
+  nameWithType: DbInstance.OnDeletedDataAsync
 - uid: NEntityDb.Data.Common.DbInstance.OnDeletingData(System.Collections.Generic.List{NEntityDb.Data.Context.IDbDeleteContext})
   name: OnDeletingData(List<IDbDeleteContext>)
   href: api/NEntityDb.Data.Common.DbInstance.OnDeletingData.html#NEntityDb_Data_Common_DbInstance_OnDeletingData_System_Collections_Generic_List_NEntityDb_Data_Context_IDbDeleteContext__
@@ -3178,6 +3223,21 @@ references:
   commentId: Overload:NEntityDb.Data.Common.DbInstance.OnDeletingData
   fullName: NEntityDb.Data.Common.DbInstance.OnDeletingData
   nameWithType: DbInstance.OnDeletingData
+- uid: NEntityDb.Data.Common.DbInstance.OnDeletingDataAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbDeleteContext})
+  name: OnDeletingDataAsync(List<IDbDeleteContext>)
+  href: api/NEntityDb.Data.Common.DbInstance.OnDeletingDataAsync.html#NEntityDb_Data_Common_DbInstance_OnDeletingDataAsync_System_Collections_Generic_List_NEntityDb_Data_Context_IDbDeleteContext__
+  commentId: M:NEntityDb.Data.Common.DbInstance.OnDeletingDataAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbDeleteContext})
+  name.vb: OnDeletingDataAsync(List(Of IDbDeleteContext))
+  fullName: NEntityDb.Data.Common.DbInstance.OnDeletingDataAsync(System.Collections.Generic.List<NEntityDb.Data.Context.IDbDeleteContext>)
+  fullName.vb: NEntityDb.Data.Common.DbInstance.OnDeletingDataAsync(System.Collections.Generic.List(Of NEntityDb.Data.Context.IDbDeleteContext))
+  nameWithType: DbInstance.OnDeletingDataAsync(List<IDbDeleteContext>)
+  nameWithType.vb: DbInstance.OnDeletingDataAsync(List(Of IDbDeleteContext))
+- uid: NEntityDb.Data.Common.DbInstance.OnDeletingDataAsync*
+  name: OnDeletingDataAsync
+  href: api/NEntityDb.Data.Common.DbInstance.OnDeletingDataAsync.html
+  commentId: Overload:NEntityDb.Data.Common.DbInstance.OnDeletingDataAsync
+  fullName: NEntityDb.Data.Common.DbInstance.OnDeletingDataAsync
+  nameWithType: DbInstance.OnDeletingDataAsync
 - uid: NEntityDb.Data.Common.DbInstance.OnInsertBatchData(System.Collections.Generic.List{NEntityDb.Data.Context.IDbInsertContext})
   name: OnInsertBatchData(List<IDbInsertContext>)
   href: api/NEntityDb.Data.Common.DbInstance.OnInsertBatchData.html#NEntityDb_Data_Common_DbInstance_OnInsertBatchData_System_Collections_Generic_List_NEntityDb_Data_Context_IDbInsertContext__
@@ -3253,6 +3313,21 @@ references:
   commentId: Overload:NEntityDb.Data.Common.DbInstance.OnInsertedData
   fullName: NEntityDb.Data.Common.DbInstance.OnInsertedData
   nameWithType: DbInstance.OnInsertedData
+- uid: NEntityDb.Data.Common.DbInstance.OnInsertedDataAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbInsertContext})
+  name: OnInsertedDataAsync(List<IDbInsertContext>)
+  href: api/NEntityDb.Data.Common.DbInstance.OnInsertedDataAsync.html#NEntityDb_Data_Common_DbInstance_OnInsertedDataAsync_System_Collections_Generic_List_NEntityDb_Data_Context_IDbInsertContext__
+  commentId: M:NEntityDb.Data.Common.DbInstance.OnInsertedDataAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbInsertContext})
+  name.vb: OnInsertedDataAsync(List(Of IDbInsertContext))
+  fullName: NEntityDb.Data.Common.DbInstance.OnInsertedDataAsync(System.Collections.Generic.List<NEntityDb.Data.Context.IDbInsertContext>)
+  fullName.vb: NEntityDb.Data.Common.DbInstance.OnInsertedDataAsync(System.Collections.Generic.List(Of NEntityDb.Data.Context.IDbInsertContext))
+  nameWithType: DbInstance.OnInsertedDataAsync(List<IDbInsertContext>)
+  nameWithType.vb: DbInstance.OnInsertedDataAsync(List(Of IDbInsertContext))
+- uid: NEntityDb.Data.Common.DbInstance.OnInsertedDataAsync*
+  name: OnInsertedDataAsync
+  href: api/NEntityDb.Data.Common.DbInstance.OnInsertedDataAsync.html
+  commentId: Overload:NEntityDb.Data.Common.DbInstance.OnInsertedDataAsync
+  fullName: NEntityDb.Data.Common.DbInstance.OnInsertedDataAsync
+  nameWithType: DbInstance.OnInsertedDataAsync
 - uid: NEntityDb.Data.Common.DbInstance.OnInsertingData(System.Collections.Generic.List{NEntityDb.Data.Context.IDbInsertContext})
   name: OnInsertingData(List<IDbInsertContext>)
   href: api/NEntityDb.Data.Common.DbInstance.OnInsertingData.html#NEntityDb_Data_Common_DbInstance_OnInsertingData_System_Collections_Generic_List_NEntityDb_Data_Context_IDbInsertContext__
@@ -3268,6 +3343,21 @@ references:
   commentId: Overload:NEntityDb.Data.Common.DbInstance.OnInsertingData
   fullName: NEntityDb.Data.Common.DbInstance.OnInsertingData
   nameWithType: DbInstance.OnInsertingData
+- uid: NEntityDb.Data.Common.DbInstance.OnInsertingDataAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbInsertContext})
+  name: OnInsertingDataAsync(List<IDbInsertContext>)
+  href: api/NEntityDb.Data.Common.DbInstance.OnInsertingDataAsync.html#NEntityDb_Data_Common_DbInstance_OnInsertingDataAsync_System_Collections_Generic_List_NEntityDb_Data_Context_IDbInsertContext__
+  commentId: M:NEntityDb.Data.Common.DbInstance.OnInsertingDataAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbInsertContext})
+  name.vb: OnInsertingDataAsync(List(Of IDbInsertContext))
+  fullName: NEntityDb.Data.Common.DbInstance.OnInsertingDataAsync(System.Collections.Generic.List<NEntityDb.Data.Context.IDbInsertContext>)
+  fullName.vb: NEntityDb.Data.Common.DbInstance.OnInsertingDataAsync(System.Collections.Generic.List(Of NEntityDb.Data.Context.IDbInsertContext))
+  nameWithType: DbInstance.OnInsertingDataAsync(List<IDbInsertContext>)
+  nameWithType.vb: DbInstance.OnInsertingDataAsync(List(Of IDbInsertContext))
+- uid: NEntityDb.Data.Common.DbInstance.OnInsertingDataAsync*
+  name: OnInsertingDataAsync
+  href: api/NEntityDb.Data.Common.DbInstance.OnInsertingDataAsync.html
+  commentId: Overload:NEntityDb.Data.Common.DbInstance.OnInsertingDataAsync
+  fullName: NEntityDb.Data.Common.DbInstance.OnInsertingDataAsync
+  nameWithType: DbInstance.OnInsertingDataAsync
 - uid: NEntityDb.Data.Common.DbInstance.OnInsertIntoSelectData(System.Collections.Generic.List{NEntityDb.Data.Context.IDbInsertContext})
   name: OnInsertIntoSelectData(List<IDbInsertContext>)
   href: api/NEntityDb.Data.Common.DbInstance.OnInsertIntoSelectData.html#NEntityDb_Data_Common_DbInstance_OnInsertIntoSelectData_System_Collections_Generic_List_NEntityDb_Data_Context_IDbInsertContext__
@@ -3391,6 +3481,18 @@ references:
   commentId: Overload:NEntityDb.Data.Common.DbInstance.OnSelectedData
   fullName: NEntityDb.Data.Common.DbInstance.OnSelectedData
   nameWithType: DbInstance.OnSelectedData
+- uid: NEntityDb.Data.Common.DbInstance.OnSelectedDataAsync(NEntityDb.Data.Context.IDbSelectContext)
+  name: OnSelectedDataAsync(IDbSelectContext)
+  href: api/NEntityDb.Data.Common.DbInstance.OnSelectedDataAsync.html#NEntityDb_Data_Common_DbInstance_OnSelectedDataAsync_NEntityDb_Data_Context_IDbSelectContext_
+  commentId: M:NEntityDb.Data.Common.DbInstance.OnSelectedDataAsync(NEntityDb.Data.Context.IDbSelectContext)
+  fullName: NEntityDb.Data.Common.DbInstance.OnSelectedDataAsync(NEntityDb.Data.Context.IDbSelectContext)
+  nameWithType: DbInstance.OnSelectedDataAsync(IDbSelectContext)
+- uid: NEntityDb.Data.Common.DbInstance.OnSelectedDataAsync*
+  name: OnSelectedDataAsync
+  href: api/NEntityDb.Data.Common.DbInstance.OnSelectedDataAsync.html
+  commentId: Overload:NEntityDb.Data.Common.DbInstance.OnSelectedDataAsync
+  fullName: NEntityDb.Data.Common.DbInstance.OnSelectedDataAsync
+  nameWithType: DbInstance.OnSelectedDataAsync
 - uid: NEntityDb.Data.Common.DbInstance.OnSelectingData(NEntityDb.Data.Context.IDbSelectContext)
   name: OnSelectingData(IDbSelectContext)
   href: api/NEntityDb.Data.Common.DbInstance.OnSelectingData.html#NEntityDb_Data_Common_DbInstance_OnSelectingData_NEntityDb_Data_Context_IDbSelectContext_
@@ -3403,6 +3505,18 @@ references:
   commentId: Overload:NEntityDb.Data.Common.DbInstance.OnSelectingData
   fullName: NEntityDb.Data.Common.DbInstance.OnSelectingData
   nameWithType: DbInstance.OnSelectingData
+- uid: NEntityDb.Data.Common.DbInstance.OnSelectingDataAsync(NEntityDb.Data.Context.IDbSelectContext)
+  name: OnSelectingDataAsync(IDbSelectContext)
+  href: api/NEntityDb.Data.Common.DbInstance.OnSelectingDataAsync.html#NEntityDb_Data_Common_DbInstance_OnSelectingDataAsync_NEntityDb_Data_Context_IDbSelectContext_
+  commentId: M:NEntityDb.Data.Common.DbInstance.OnSelectingDataAsync(NEntityDb.Data.Context.IDbSelectContext)
+  fullName: NEntityDb.Data.Common.DbInstance.OnSelectingDataAsync(NEntityDb.Data.Context.IDbSelectContext)
+  nameWithType: DbInstance.OnSelectingDataAsync(IDbSelectContext)
+- uid: NEntityDb.Data.Common.DbInstance.OnSelectingDataAsync*
+  name: OnSelectingDataAsync
+  href: api/NEntityDb.Data.Common.DbInstance.OnSelectingDataAsync.html
+  commentId: Overload:NEntityDb.Data.Common.DbInstance.OnSelectingDataAsync
+  fullName: NEntityDb.Data.Common.DbInstance.OnSelectingDataAsync
+  nameWithType: DbInstance.OnSelectingDataAsync
 - uid: NEntityDb.Data.Common.DbInstance.OnUpdateData(System.Collections.Generic.List{NEntityDb.Data.Context.IDbUpdateContext})
   name: OnUpdateData(List<IDbUpdateContext>)
   href: api/NEntityDb.Data.Common.DbInstance.OnUpdateData.html#NEntityDb_Data_Common_DbInstance_OnUpdateData_System_Collections_Generic_List_NEntityDb_Data_Context_IDbUpdateContext__
@@ -3448,6 +3562,21 @@ references:
   commentId: Overload:NEntityDb.Data.Common.DbInstance.OnUpdatedData
   fullName: NEntityDb.Data.Common.DbInstance.OnUpdatedData
   nameWithType: DbInstance.OnUpdatedData
+- uid: NEntityDb.Data.Common.DbInstance.OnUpdatedDataAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbUpdateContext})
+  name: OnUpdatedDataAsync(List<IDbUpdateContext>)
+  href: api/NEntityDb.Data.Common.DbInstance.OnUpdatedDataAsync.html#NEntityDb_Data_Common_DbInstance_OnUpdatedDataAsync_System_Collections_Generic_List_NEntityDb_Data_Context_IDbUpdateContext__
+  commentId: M:NEntityDb.Data.Common.DbInstance.OnUpdatedDataAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbUpdateContext})
+  name.vb: OnUpdatedDataAsync(List(Of IDbUpdateContext))
+  fullName: NEntityDb.Data.Common.DbInstance.OnUpdatedDataAsync(System.Collections.Generic.List<NEntityDb.Data.Context.IDbUpdateContext>)
+  fullName.vb: NEntityDb.Data.Common.DbInstance.OnUpdatedDataAsync(System.Collections.Generic.List(Of NEntityDb.Data.Context.IDbUpdateContext))
+  nameWithType: DbInstance.OnUpdatedDataAsync(List<IDbUpdateContext>)
+  nameWithType.vb: DbInstance.OnUpdatedDataAsync(List(Of IDbUpdateContext))
+- uid: NEntityDb.Data.Common.DbInstance.OnUpdatedDataAsync*
+  name: OnUpdatedDataAsync
+  href: api/NEntityDb.Data.Common.DbInstance.OnUpdatedDataAsync.html
+  commentId: Overload:NEntityDb.Data.Common.DbInstance.OnUpdatedDataAsync
+  fullName: NEntityDb.Data.Common.DbInstance.OnUpdatedDataAsync
+  nameWithType: DbInstance.OnUpdatedDataAsync
 - uid: NEntityDb.Data.Common.DbInstance.OnUpdatingData(System.Collections.Generic.List{NEntityDb.Data.Context.IDbUpdateContext})
   name: OnUpdatingData(List<IDbUpdateContext>)
   href: api/NEntityDb.Data.Common.DbInstance.OnUpdatingData.html#NEntityDb_Data_Common_DbInstance_OnUpdatingData_System_Collections_Generic_List_NEntityDb_Data_Context_IDbUpdateContext__
@@ -3463,6 +3592,21 @@ references:
   commentId: Overload:NEntityDb.Data.Common.DbInstance.OnUpdatingData
   fullName: NEntityDb.Data.Common.DbInstance.OnUpdatingData
   nameWithType: DbInstance.OnUpdatingData
+- uid: NEntityDb.Data.Common.DbInstance.OnUpdatingDataAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbUpdateContext})
+  name: OnUpdatingDataAsync(List<IDbUpdateContext>)
+  href: api/NEntityDb.Data.Common.DbInstance.OnUpdatingDataAsync.html#NEntityDb_Data_Common_DbInstance_OnUpdatingDataAsync_System_Collections_Generic_List_NEntityDb_Data_Context_IDbUpdateContext__
+  commentId: M:NEntityDb.Data.Common.DbInstance.OnUpdatingDataAsync(System.Collections.Generic.List{NEntityDb.Data.Context.IDbUpdateContext})
+  name.vb: OnUpdatingDataAsync(List(Of IDbUpdateContext))
+  fullName: NEntityDb.Data.Common.DbInstance.OnUpdatingDataAsync(System.Collections.Generic.List<NEntityDb.Data.Context.IDbUpdateContext>)
+  fullName.vb: NEntityDb.Data.Common.DbInstance.OnUpdatingDataAsync(System.Collections.Generic.List(Of NEntityDb.Data.Context.IDbUpdateContext))
+  nameWithType: DbInstance.OnUpdatingDataAsync(List<IDbUpdateContext>)
+  nameWithType.vb: DbInstance.OnUpdatingDataAsync(List(Of IDbUpdateContext))
+- uid: NEntityDb.Data.Common.DbInstance.OnUpdatingDataAsync*
+  name: OnUpdatingDataAsync
+  href: api/NEntityDb.Data.Common.DbInstance.OnUpdatingDataAsync.html
+  commentId: Overload:NEntityDb.Data.Common.DbInstance.OnUpdatingDataAsync
+  fullName: NEntityDb.Data.Common.DbInstance.OnUpdatingDataAsync
+  nameWithType: DbInstance.OnUpdatingDataAsync
 - uid: NEntityDb.Data.Common.DbInstance.PrepareExecute(NEntityDb.Model.IProcedureRequest)
   name: PrepareExecute(IProcedureRequest)
   href: api/NEntityDb.Data.Common.DbInstance.PrepareExecute.html#NEntityDb_Data_Common_DbInstance_PrepareExecute_NEntityDb_Model_IProcedureRequest_
@@ -9292,6 +9436,168 @@ references:
   commentId: T:NEntityDb.Data.Db2.Resolvers.ValueToDbValueResolver
   fullName: NEntityDb.Data.Db2.Resolvers.ValueToDbValueResolver
   nameWithType: ValueToDbValueResolver
+- uid: NEntityDb.Data.DbAsyncTrigger
+  name: DbAsyncTrigger
+  href: api/NEntityDb.Data.DbAsyncTrigger.html
+  commentId: T:NEntityDb.Data.DbAsyncTrigger
+  fullName: NEntityDb.Data.DbAsyncTrigger
+  nameWithType: DbAsyncTrigger
+- uid: NEntityDb.Data.DbAsyncTrigger.Instance
+  name: Instance
+  href: api/NEntityDb.Data.DbAsyncTrigger.Instance.html#NEntityDb_Data_DbAsyncTrigger_Instance
+  commentId: P:NEntityDb.Data.DbAsyncTrigger.Instance
+  fullName: NEntityDb.Data.DbAsyncTrigger.Instance
+  nameWithType: DbAsyncTrigger.Instance
+- uid: NEntityDb.Data.DbAsyncTrigger.Instance*
+  name: Instance
+  href: api/NEntityDb.Data.DbAsyncTrigger.Instance.html
+  commentId: Overload:NEntityDb.Data.DbAsyncTrigger.Instance
+  fullName: NEntityDb.Data.DbAsyncTrigger.Instance
+  nameWithType: DbAsyncTrigger.Instance
+- uid: NEntityDb.Data.DbAsyncTrigger.OnAfterDeleteAsync(NEntityDb.Data.Context.IDbDeleteContext)
+  name: OnAfterDeleteAsync(IDbDeleteContext)
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnAfterDeleteAsync.html#NEntityDb_Data_DbAsyncTrigger_OnAfterDeleteAsync_NEntityDb_Data_Context_IDbDeleteContext_
+  commentId: M:NEntityDb.Data.DbAsyncTrigger.OnAfterDeleteAsync(NEntityDb.Data.Context.IDbDeleteContext)
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnAfterDeleteAsync(NEntityDb.Data.Context.IDbDeleteContext)
+  nameWithType: DbAsyncTrigger.OnAfterDeleteAsync(IDbDeleteContext)
+- uid: NEntityDb.Data.DbAsyncTrigger.OnAfterDeleteAsync*
+  name: OnAfterDeleteAsync
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnAfterDeleteAsync.html
+  commentId: Overload:NEntityDb.Data.DbAsyncTrigger.OnAfterDeleteAsync
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnAfterDeleteAsync
+  nameWithType: DbAsyncTrigger.OnAfterDeleteAsync
+- uid: NEntityDb.Data.DbAsyncTrigger.OnAfterInsertAsync(NEntityDb.Data.Context.IDbInsertContext)
+  name: OnAfterInsertAsync(IDbInsertContext)
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnAfterInsertAsync.html#NEntityDb_Data_DbAsyncTrigger_OnAfterInsertAsync_NEntityDb_Data_Context_IDbInsertContext_
+  commentId: M:NEntityDb.Data.DbAsyncTrigger.OnAfterInsertAsync(NEntityDb.Data.Context.IDbInsertContext)
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnAfterInsertAsync(NEntityDb.Data.Context.IDbInsertContext)
+  nameWithType: DbAsyncTrigger.OnAfterInsertAsync(IDbInsertContext)
+- uid: NEntityDb.Data.DbAsyncTrigger.OnAfterInsertAsync*
+  name: OnAfterInsertAsync
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnAfterInsertAsync.html
+  commentId: Overload:NEntityDb.Data.DbAsyncTrigger.OnAfterInsertAsync
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnAfterInsertAsync
+  nameWithType: DbAsyncTrigger.OnAfterInsertAsync
+- uid: NEntityDb.Data.DbAsyncTrigger.OnAfterSelectAsync(NEntityDb.Data.Context.IDbSelectContext)
+  name: OnAfterSelectAsync(IDbSelectContext)
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnAfterSelectAsync.html#NEntityDb_Data_DbAsyncTrigger_OnAfterSelectAsync_NEntityDb_Data_Context_IDbSelectContext_
+  commentId: M:NEntityDb.Data.DbAsyncTrigger.OnAfterSelectAsync(NEntityDb.Data.Context.IDbSelectContext)
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnAfterSelectAsync(NEntityDb.Data.Context.IDbSelectContext)
+  nameWithType: DbAsyncTrigger.OnAfterSelectAsync(IDbSelectContext)
+- uid: NEntityDb.Data.DbAsyncTrigger.OnAfterSelectAsync*
+  name: OnAfterSelectAsync
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnAfterSelectAsync.html
+  commentId: Overload:NEntityDb.Data.DbAsyncTrigger.OnAfterSelectAsync
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnAfterSelectAsync
+  nameWithType: DbAsyncTrigger.OnAfterSelectAsync
+- uid: NEntityDb.Data.DbAsyncTrigger.OnAfterUpdateAsync(NEntityDb.Data.Context.IDbUpdateContext)
+  name: OnAfterUpdateAsync(IDbUpdateContext)
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnAfterUpdateAsync.html#NEntityDb_Data_DbAsyncTrigger_OnAfterUpdateAsync_NEntityDb_Data_Context_IDbUpdateContext_
+  commentId: M:NEntityDb.Data.DbAsyncTrigger.OnAfterUpdateAsync(NEntityDb.Data.Context.IDbUpdateContext)
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnAfterUpdateAsync(NEntityDb.Data.Context.IDbUpdateContext)
+  nameWithType: DbAsyncTrigger.OnAfterUpdateAsync(IDbUpdateContext)
+- uid: NEntityDb.Data.DbAsyncTrigger.OnAfterUpdateAsync*
+  name: OnAfterUpdateAsync
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnAfterUpdateAsync.html
+  commentId: Overload:NEntityDb.Data.DbAsyncTrigger.OnAfterUpdateAsync
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnAfterUpdateAsync
+  nameWithType: DbAsyncTrigger.OnAfterUpdateAsync
+- uid: NEntityDb.Data.DbAsyncTrigger.OnBeforeDeleteAsync(NEntityDb.Data.Context.IDbDeleteContext)
+  name: OnBeforeDeleteAsync(IDbDeleteContext)
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnBeforeDeleteAsync.html#NEntityDb_Data_DbAsyncTrigger_OnBeforeDeleteAsync_NEntityDb_Data_Context_IDbDeleteContext_
+  commentId: M:NEntityDb.Data.DbAsyncTrigger.OnBeforeDeleteAsync(NEntityDb.Data.Context.IDbDeleteContext)
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnBeforeDeleteAsync(NEntityDb.Data.Context.IDbDeleteContext)
+  nameWithType: DbAsyncTrigger.OnBeforeDeleteAsync(IDbDeleteContext)
+- uid: NEntityDb.Data.DbAsyncTrigger.OnBeforeDeleteAsync*
+  name: OnBeforeDeleteAsync
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnBeforeDeleteAsync.html
+  commentId: Overload:NEntityDb.Data.DbAsyncTrigger.OnBeforeDeleteAsync
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnBeforeDeleteAsync
+  nameWithType: DbAsyncTrigger.OnBeforeDeleteAsync
+- uid: NEntityDb.Data.DbAsyncTrigger.OnBeforeInsertAsync(NEntityDb.Data.Context.IDbInsertContext)
+  name: OnBeforeInsertAsync(IDbInsertContext)
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnBeforeInsertAsync.html#NEntityDb_Data_DbAsyncTrigger_OnBeforeInsertAsync_NEntityDb_Data_Context_IDbInsertContext_
+  commentId: M:NEntityDb.Data.DbAsyncTrigger.OnBeforeInsertAsync(NEntityDb.Data.Context.IDbInsertContext)
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnBeforeInsertAsync(NEntityDb.Data.Context.IDbInsertContext)
+  nameWithType: DbAsyncTrigger.OnBeforeInsertAsync(IDbInsertContext)
+- uid: NEntityDb.Data.DbAsyncTrigger.OnBeforeInsertAsync*
+  name: OnBeforeInsertAsync
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnBeforeInsertAsync.html
+  commentId: Overload:NEntityDb.Data.DbAsyncTrigger.OnBeforeInsertAsync
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnBeforeInsertAsync
+  nameWithType: DbAsyncTrigger.OnBeforeInsertAsync
+- uid: NEntityDb.Data.DbAsyncTrigger.OnBeforeSelectAsync(NEntityDb.Data.Context.IDbSelectContext)
+  name: OnBeforeSelectAsync(IDbSelectContext)
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnBeforeSelectAsync.html#NEntityDb_Data_DbAsyncTrigger_OnBeforeSelectAsync_NEntityDb_Data_Context_IDbSelectContext_
+  commentId: M:NEntityDb.Data.DbAsyncTrigger.OnBeforeSelectAsync(NEntityDb.Data.Context.IDbSelectContext)
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnBeforeSelectAsync(NEntityDb.Data.Context.IDbSelectContext)
+  nameWithType: DbAsyncTrigger.OnBeforeSelectAsync(IDbSelectContext)
+- uid: NEntityDb.Data.DbAsyncTrigger.OnBeforeSelectAsync*
+  name: OnBeforeSelectAsync
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnBeforeSelectAsync.html
+  commentId: Overload:NEntityDb.Data.DbAsyncTrigger.OnBeforeSelectAsync
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnBeforeSelectAsync
+  nameWithType: DbAsyncTrigger.OnBeforeSelectAsync
+- uid: NEntityDb.Data.DbAsyncTrigger.OnBeforeUpdateAsync(NEntityDb.Data.Context.IDbUpdateContext)
+  name: OnBeforeUpdateAsync(IDbUpdateContext)
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnBeforeUpdateAsync.html#NEntityDb_Data_DbAsyncTrigger_OnBeforeUpdateAsync_NEntityDb_Data_Context_IDbUpdateContext_
+  commentId: M:NEntityDb.Data.DbAsyncTrigger.OnBeforeUpdateAsync(NEntityDb.Data.Context.IDbUpdateContext)
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnBeforeUpdateAsync(NEntityDb.Data.Context.IDbUpdateContext)
+  nameWithType: DbAsyncTrigger.OnBeforeUpdateAsync(IDbUpdateContext)
+- uid: NEntityDb.Data.DbAsyncTrigger.OnBeforeUpdateAsync*
+  name: OnBeforeUpdateAsync
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnBeforeUpdateAsync.html
+  commentId: Overload:NEntityDb.Data.DbAsyncTrigger.OnBeforeUpdateAsync
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnBeforeUpdateAsync
+  nameWithType: DbAsyncTrigger.OnBeforeUpdateAsync
+- uid: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfDeleteAsync(NEntityDb.Data.Context.IDbDeleteContext)
+  name: OnInsteadOfDeleteAsync(IDbDeleteContext)
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnInsteadOfDeleteAsync.html#NEntityDb_Data_DbAsyncTrigger_OnInsteadOfDeleteAsync_NEntityDb_Data_Context_IDbDeleteContext_
+  commentId: M:NEntityDb.Data.DbAsyncTrigger.OnInsteadOfDeleteAsync(NEntityDb.Data.Context.IDbDeleteContext)
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfDeleteAsync(NEntityDb.Data.Context.IDbDeleteContext)
+  nameWithType: DbAsyncTrigger.OnInsteadOfDeleteAsync(IDbDeleteContext)
+- uid: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfDeleteAsync*
+  name: OnInsteadOfDeleteAsync
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnInsteadOfDeleteAsync.html
+  commentId: Overload:NEntityDb.Data.DbAsyncTrigger.OnInsteadOfDeleteAsync
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfDeleteAsync
+  nameWithType: DbAsyncTrigger.OnInsteadOfDeleteAsync
+- uid: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfInsertAsync(NEntityDb.Data.Context.IDbInsertContext)
+  name: OnInsteadOfInsertAsync(IDbInsertContext)
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnInsteadOfInsertAsync.html#NEntityDb_Data_DbAsyncTrigger_OnInsteadOfInsertAsync_NEntityDb_Data_Context_IDbInsertContext_
+  commentId: M:NEntityDb.Data.DbAsyncTrigger.OnInsteadOfInsertAsync(NEntityDb.Data.Context.IDbInsertContext)
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfInsertAsync(NEntityDb.Data.Context.IDbInsertContext)
+  nameWithType: DbAsyncTrigger.OnInsteadOfInsertAsync(IDbInsertContext)
+- uid: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfInsertAsync*
+  name: OnInsteadOfInsertAsync
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnInsteadOfInsertAsync.html
+  commentId: Overload:NEntityDb.Data.DbAsyncTrigger.OnInsteadOfInsertAsync
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfInsertAsync
+  nameWithType: DbAsyncTrigger.OnInsteadOfInsertAsync
+- uid: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfSelectAsync(NEntityDb.Data.Context.IDbSelectContext)
+  name: OnInsteadOfSelectAsync(IDbSelectContext)
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnInsteadOfSelectAsync.html#NEntityDb_Data_DbAsyncTrigger_OnInsteadOfSelectAsync_NEntityDb_Data_Context_IDbSelectContext_
+  commentId: M:NEntityDb.Data.DbAsyncTrigger.OnInsteadOfSelectAsync(NEntityDb.Data.Context.IDbSelectContext)
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfSelectAsync(NEntityDb.Data.Context.IDbSelectContext)
+  nameWithType: DbAsyncTrigger.OnInsteadOfSelectAsync(IDbSelectContext)
+- uid: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfSelectAsync*
+  name: OnInsteadOfSelectAsync
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnInsteadOfSelectAsync.html
+  commentId: Overload:NEntityDb.Data.DbAsyncTrigger.OnInsteadOfSelectAsync
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfSelectAsync
+  nameWithType: DbAsyncTrigger.OnInsteadOfSelectAsync
+- uid: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfUpdateAsync(NEntityDb.Data.Context.IDbUpdateContext)
+  name: OnInsteadOfUpdateAsync(IDbUpdateContext)
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnInsteadOfUpdateAsync.html#NEntityDb_Data_DbAsyncTrigger_OnInsteadOfUpdateAsync_NEntityDb_Data_Context_IDbUpdateContext_
+  commentId: M:NEntityDb.Data.DbAsyncTrigger.OnInsteadOfUpdateAsync(NEntityDb.Data.Context.IDbUpdateContext)
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfUpdateAsync(NEntityDb.Data.Context.IDbUpdateContext)
+  nameWithType: DbAsyncTrigger.OnInsteadOfUpdateAsync(IDbUpdateContext)
+- uid: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfUpdateAsync*
+  name: OnInsteadOfUpdateAsync
+  href: api/NEntityDb.Data.DbAsyncTrigger.OnInsteadOfUpdateAsync.html
+  commentId: Overload:NEntityDb.Data.DbAsyncTrigger.OnInsteadOfUpdateAsync
+  fullName: NEntityDb.Data.DbAsyncTrigger.OnInsteadOfUpdateAsync
+  nameWithType: DbAsyncTrigger.OnInsteadOfUpdateAsync
 - uid: NEntityDb.Data.DbFunction
   name: DbFunction
   href: api/NEntityDb.Data.DbFunction.html
@@ -13271,6 +13577,24 @@ references:
   fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(System.Func(Of NEntityDb.Data.Context.IDbDeleteContext, System.Boolean))
   nameWithType: DbEntity<TEntity>.WithTrigger(Func<IDbDeleteContext, Boolean>)
   nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Func(Of IDbDeleteContext, Boolean))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbDeleteContext,System.Threading.Tasks.Task{System.Boolean}})
+  name: WithTrigger(Func<IDbDeleteContext, Task<Boolean>>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger_System_Func_NEntityDb_Data_Context_IDbDeleteContext_System_Threading_Tasks_Task_System_Boolean___
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbDeleteContext,System.Threading.Tasks.Task{System.Boolean}})
+  name.vb: WithTrigger(Func(Of IDbDeleteContext, Task(Of Boolean)))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger(System.Func<NEntityDb.Data.Context.IDbDeleteContext, System.Threading.Tasks.Task<System.Boolean>>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(System.Func(Of NEntityDb.Data.Context.IDbDeleteContext, System.Threading.Tasks.Task(Of System.Boolean)))
+  nameWithType: DbEntity<TEntity>.WithTrigger(Func<IDbDeleteContext, Task<Boolean>>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Func(Of IDbDeleteContext, Task(Of Boolean)))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbDeleteContext,System.Threading.Tasks.Task})
+  name: WithTrigger(Func<IDbDeleteContext, Task>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger_System_Func_NEntityDb_Data_Context_IDbDeleteContext_System_Threading_Tasks_Task__
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbDeleteContext,System.Threading.Tasks.Task})
+  name.vb: WithTrigger(Func(Of IDbDeleteContext, Task))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger(System.Func<NEntityDb.Data.Context.IDbDeleteContext, System.Threading.Tasks.Task>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(System.Func(Of NEntityDb.Data.Context.IDbDeleteContext, System.Threading.Tasks.Task))
+  nameWithType: DbEntity<TEntity>.WithTrigger(Func<IDbDeleteContext, Task>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Func(Of IDbDeleteContext, Task))
 - uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbInsertContext,System.Boolean})
   name: WithTrigger(Func<IDbInsertContext, Boolean>)
   href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger_System_Func_NEntityDb_Data_Context_IDbInsertContext_System_Boolean__
@@ -13280,6 +13604,24 @@ references:
   fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(System.Func(Of NEntityDb.Data.Context.IDbInsertContext, System.Boolean))
   nameWithType: DbEntity<TEntity>.WithTrigger(Func<IDbInsertContext, Boolean>)
   nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Func(Of IDbInsertContext, Boolean))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbInsertContext,System.Threading.Tasks.Task{System.Boolean}})
+  name: WithTrigger(Func<IDbInsertContext, Task<Boolean>>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger_System_Func_NEntityDb_Data_Context_IDbInsertContext_System_Threading_Tasks_Task_System_Boolean___
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbInsertContext,System.Threading.Tasks.Task{System.Boolean}})
+  name.vb: WithTrigger(Func(Of IDbInsertContext, Task(Of Boolean)))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger(System.Func<NEntityDb.Data.Context.IDbInsertContext, System.Threading.Tasks.Task<System.Boolean>>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(System.Func(Of NEntityDb.Data.Context.IDbInsertContext, System.Threading.Tasks.Task(Of System.Boolean)))
+  nameWithType: DbEntity<TEntity>.WithTrigger(Func<IDbInsertContext, Task<Boolean>>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Func(Of IDbInsertContext, Task(Of Boolean)))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbInsertContext,System.Threading.Tasks.Task})
+  name: WithTrigger(Func<IDbInsertContext, Task>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger_System_Func_NEntityDb_Data_Context_IDbInsertContext_System_Threading_Tasks_Task__
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbInsertContext,System.Threading.Tasks.Task})
+  name.vb: WithTrigger(Func(Of IDbInsertContext, Task))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger(System.Func<NEntityDb.Data.Context.IDbInsertContext, System.Threading.Tasks.Task>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(System.Func(Of NEntityDb.Data.Context.IDbInsertContext, System.Threading.Tasks.Task))
+  nameWithType: DbEntity<TEntity>.WithTrigger(Func<IDbInsertContext, Task>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Func(Of IDbInsertContext, Task))
 - uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbSelectContext,System.Boolean})
   name: WithTrigger(Func<IDbSelectContext, Boolean>)
   href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger_System_Func_NEntityDb_Data_Context_IDbSelectContext_System_Boolean__
@@ -13289,6 +13631,15 @@ references:
   fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(System.Func(Of NEntityDb.Data.Context.IDbSelectContext, System.Boolean))
   nameWithType: DbEntity<TEntity>.WithTrigger(Func<IDbSelectContext, Boolean>)
   nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Func(Of IDbSelectContext, Boolean))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbSelectContext,System.Threading.Tasks.Task{System.Boolean}})
+  name: WithTrigger(Func<IDbSelectContext, Task<Boolean>>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger_System_Func_NEntityDb_Data_Context_IDbSelectContext_System_Threading_Tasks_Task_System_Boolean___
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbSelectContext,System.Threading.Tasks.Task{System.Boolean}})
+  name.vb: WithTrigger(Func(Of IDbSelectContext, Task(Of Boolean)))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger(System.Func<NEntityDb.Data.Context.IDbSelectContext, System.Threading.Tasks.Task<System.Boolean>>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(System.Func(Of NEntityDb.Data.Context.IDbSelectContext, System.Threading.Tasks.Task(Of System.Boolean)))
+  nameWithType: DbEntity<TEntity>.WithTrigger(Func<IDbSelectContext, Task<Boolean>>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Func(Of IDbSelectContext, Task(Of Boolean)))
 - uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbUpdateContext,System.Boolean})
   name: WithTrigger(Func<IDbUpdateContext, Boolean>)
   href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger_System_Func_NEntityDb_Data_Context_IDbUpdateContext_System_Boolean__
@@ -13298,14 +13649,32 @@ references:
   fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(System.Func(Of NEntityDb.Data.Context.IDbUpdateContext, System.Boolean))
   nameWithType: DbEntity<TEntity>.WithTrigger(Func<IDbUpdateContext, Boolean>)
   nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Func(Of IDbUpdateContext, Boolean))
-- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Type,System.String,NEntityDb.Data.Model.DbTriggerAction)
-  name: WithTrigger(Type, String, DbTriggerAction)
-  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger_System_Type_System_String_NEntityDb_Data_Model_DbTriggerAction_
-  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Type,System.String,NEntityDb.Data.Model.DbTriggerAction)
-  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger(System.Type, System.String, NEntityDb.Data.Model.DbTriggerAction)
-  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(System.Type, System.String, NEntityDb.Data.Model.DbTriggerAction)
-  nameWithType: DbEntity<TEntity>.WithTrigger(Type, String, DbTriggerAction)
-  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Type, String, DbTriggerAction)
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbUpdateContext,System.Threading.Tasks.Task{System.Boolean}})
+  name: WithTrigger(Func<IDbUpdateContext, Task<Boolean>>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger_System_Func_NEntityDb_Data_Context_IDbUpdateContext_System_Threading_Tasks_Task_System_Boolean___
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbUpdateContext,System.Threading.Tasks.Task{System.Boolean}})
+  name.vb: WithTrigger(Func(Of IDbUpdateContext, Task(Of Boolean)))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger(System.Func<NEntityDb.Data.Context.IDbUpdateContext, System.Threading.Tasks.Task<System.Boolean>>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(System.Func(Of NEntityDb.Data.Context.IDbUpdateContext, System.Threading.Tasks.Task(Of System.Boolean)))
+  nameWithType: DbEntity<TEntity>.WithTrigger(Func<IDbUpdateContext, Task<Boolean>>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Func(Of IDbUpdateContext, Task(Of Boolean)))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbUpdateContext,System.Threading.Tasks.Task})
+  name: WithTrigger(Func<IDbUpdateContext, Task>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger_System_Func_NEntityDb_Data_Context_IDbUpdateContext_System_Threading_Tasks_Task__
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Func{NEntityDb.Data.Context.IDbUpdateContext,System.Threading.Tasks.Task})
+  name.vb: WithTrigger(Func(Of IDbUpdateContext, Task))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger(System.Func<NEntityDb.Data.Context.IDbUpdateContext, System.Threading.Tasks.Task>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(System.Func(Of NEntityDb.Data.Context.IDbUpdateContext, System.Threading.Tasks.Task))
+  nameWithType: DbEntity<TEntity>.WithTrigger(Func<IDbUpdateContext, Task>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Func(Of IDbUpdateContext, Task))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Type,System.String,NEntityDb.Data.Model.DbTriggerAction,System.Boolean)
+  name: WithTrigger(Type, String, DbTriggerAction, Boolean)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger_System_Type_System_String_NEntityDb_Data_Model_DbTriggerAction_System_Boolean_
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger(System.Type,System.String,NEntityDb.Data.Model.DbTriggerAction,System.Boolean)
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger(System.Type, System.String, NEntityDb.Data.Model.DbTriggerAction, System.Boolean)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(System.Type, System.String, NEntityDb.Data.Model.DbTriggerAction, System.Boolean)
+  nameWithType: DbEntity<TEntity>.WithTrigger(Type, String, DbTriggerAction, Boolean)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Type, String, DbTriggerAction, Boolean)
 - uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger*
   name: WithTrigger
   href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html
@@ -13359,6 +13728,24 @@ references:
   fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(Of TTrigger)(System.Linq.Expressions.Expression(Of System.Func(Of TTrigger, System.Func(Of NEntityDb.Data.Context.IDbDeleteContext, System.Boolean))))
   nameWithType: DbEntity<TEntity>.WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbDeleteContext, Boolean>>>)
   nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbDeleteContext, Boolean))))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbDeleteContext,System.Threading.Tasks.Task{System.Boolean}}}})
+  name: WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbDeleteContext, Task<Boolean>>>>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger__1_System_Linq_Expressions_Expression_System_Func___0_System_Func_NEntityDb_Data_Context_IDbDeleteContext_System_Threading_Tasks_Task_System_Boolean_____
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbDeleteContext,System.Threading.Tasks.Task{System.Boolean}}}})
+  name.vb: WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbDeleteContext, Task(Of Boolean)))))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger<TTrigger>(System.Linq.Expressions.Expression<System.Func<TTrigger, System.Func<NEntityDb.Data.Context.IDbDeleteContext, System.Threading.Tasks.Task<System.Boolean>>>>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(Of TTrigger)(System.Linq.Expressions.Expression(Of System.Func(Of TTrigger, System.Func(Of NEntityDb.Data.Context.IDbDeleteContext, System.Threading.Tasks.Task(Of System.Boolean)))))
+  nameWithType: DbEntity<TEntity>.WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbDeleteContext, Task<Boolean>>>>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbDeleteContext, Task(Of Boolean)))))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbDeleteContext,System.Threading.Tasks.Task}}})
+  name: WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbDeleteContext, Task>>>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger__1_System_Linq_Expressions_Expression_System_Func___0_System_Func_NEntityDb_Data_Context_IDbDeleteContext_System_Threading_Tasks_Task____
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbDeleteContext,System.Threading.Tasks.Task}}})
+  name.vb: WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbDeleteContext, Task))))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger<TTrigger>(System.Linq.Expressions.Expression<System.Func<TTrigger, System.Func<NEntityDb.Data.Context.IDbDeleteContext, System.Threading.Tasks.Task>>>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(Of TTrigger)(System.Linq.Expressions.Expression(Of System.Func(Of TTrigger, System.Func(Of NEntityDb.Data.Context.IDbDeleteContext, System.Threading.Tasks.Task))))
+  nameWithType: DbEntity<TEntity>.WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbDeleteContext, Task>>>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbDeleteContext, Task))))
 - uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbInsertContext,System.Boolean}}})
   name: WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbInsertContext, Boolean>>>)
   href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger__1_System_Linq_Expressions_Expression_System_Func___0_System_Func_NEntityDb_Data_Context_IDbInsertContext_System_Boolean____
@@ -13368,6 +13755,24 @@ references:
   fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(Of TTrigger)(System.Linq.Expressions.Expression(Of System.Func(Of TTrigger, System.Func(Of NEntityDb.Data.Context.IDbInsertContext, System.Boolean))))
   nameWithType: DbEntity<TEntity>.WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbInsertContext, Boolean>>>)
   nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbInsertContext, Boolean))))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbInsertContext,System.Threading.Tasks.Task{System.Boolean}}}})
+  name: WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbInsertContext, Task<Boolean>>>>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger__1_System_Linq_Expressions_Expression_System_Func___0_System_Func_NEntityDb_Data_Context_IDbInsertContext_System_Threading_Tasks_Task_System_Boolean_____
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbInsertContext,System.Threading.Tasks.Task{System.Boolean}}}})
+  name.vb: WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbInsertContext, Task(Of Boolean)))))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger<TTrigger>(System.Linq.Expressions.Expression<System.Func<TTrigger, System.Func<NEntityDb.Data.Context.IDbInsertContext, System.Threading.Tasks.Task<System.Boolean>>>>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(Of TTrigger)(System.Linq.Expressions.Expression(Of System.Func(Of TTrigger, System.Func(Of NEntityDb.Data.Context.IDbInsertContext, System.Threading.Tasks.Task(Of System.Boolean)))))
+  nameWithType: DbEntity<TEntity>.WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbInsertContext, Task<Boolean>>>>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbInsertContext, Task(Of Boolean)))))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbInsertContext,System.Threading.Tasks.Task}}})
+  name: WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbInsertContext, Task>>>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger__1_System_Linq_Expressions_Expression_System_Func___0_System_Func_NEntityDb_Data_Context_IDbInsertContext_System_Threading_Tasks_Task____
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbInsertContext,System.Threading.Tasks.Task}}})
+  name.vb: WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbInsertContext, Task))))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger<TTrigger>(System.Linq.Expressions.Expression<System.Func<TTrigger, System.Func<NEntityDb.Data.Context.IDbInsertContext, System.Threading.Tasks.Task>>>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(Of TTrigger)(System.Linq.Expressions.Expression(Of System.Func(Of TTrigger, System.Func(Of NEntityDb.Data.Context.IDbInsertContext, System.Threading.Tasks.Task))))
+  nameWithType: DbEntity<TEntity>.WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbInsertContext, Task>>>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbInsertContext, Task))))
 - uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbSelectContext,System.Boolean}}})
   name: WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbSelectContext, Boolean>>>)
   href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger__1_System_Linq_Expressions_Expression_System_Func___0_System_Func_NEntityDb_Data_Context_IDbSelectContext_System_Boolean____
@@ -13377,6 +13782,24 @@ references:
   fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(Of TTrigger)(System.Linq.Expressions.Expression(Of System.Func(Of TTrigger, System.Func(Of NEntityDb.Data.Context.IDbSelectContext, System.Boolean))))
   nameWithType: DbEntity<TEntity>.WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbSelectContext, Boolean>>>)
   nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbSelectContext, Boolean))))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbSelectContext,System.Threading.Tasks.Task{System.Boolean}}}})
+  name: WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbSelectContext, Task<Boolean>>>>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger__1_System_Linq_Expressions_Expression_System_Func___0_System_Func_NEntityDb_Data_Context_IDbSelectContext_System_Threading_Tasks_Task_System_Boolean_____
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbSelectContext,System.Threading.Tasks.Task{System.Boolean}}}})
+  name.vb: WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbSelectContext, Task(Of Boolean)))))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger<TTrigger>(System.Linq.Expressions.Expression<System.Func<TTrigger, System.Func<NEntityDb.Data.Context.IDbSelectContext, System.Threading.Tasks.Task<System.Boolean>>>>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(Of TTrigger)(System.Linq.Expressions.Expression(Of System.Func(Of TTrigger, System.Func(Of NEntityDb.Data.Context.IDbSelectContext, System.Threading.Tasks.Task(Of System.Boolean)))))
+  nameWithType: DbEntity<TEntity>.WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbSelectContext, Task<Boolean>>>>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbSelectContext, Task(Of Boolean)))))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbSelectContext,System.Threading.Tasks.Task}}})
+  name: WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbSelectContext, Task>>>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger__1_System_Linq_Expressions_Expression_System_Func___0_System_Func_NEntityDb_Data_Context_IDbSelectContext_System_Threading_Tasks_Task____
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbSelectContext,System.Threading.Tasks.Task}}})
+  name.vb: WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbSelectContext, Task))))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger<TTrigger>(System.Linq.Expressions.Expression<System.Func<TTrigger, System.Func<NEntityDb.Data.Context.IDbSelectContext, System.Threading.Tasks.Task>>>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(Of TTrigger)(System.Linq.Expressions.Expression(Of System.Func(Of TTrigger, System.Func(Of NEntityDb.Data.Context.IDbSelectContext, System.Threading.Tasks.Task))))
+  nameWithType: DbEntity<TEntity>.WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbSelectContext, Task>>>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbSelectContext, Task))))
 - uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbUpdateContext,System.Boolean}}})
   name: WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbUpdateContext, Boolean>>>)
   href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger__1_System_Linq_Expressions_Expression_System_Func___0_System_Func_NEntityDb_Data_Context_IDbUpdateContext_System_Boolean____
@@ -13386,6 +13809,24 @@ references:
   fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(Of TTrigger)(System.Linq.Expressions.Expression(Of System.Func(Of TTrigger, System.Func(Of NEntityDb.Data.Context.IDbUpdateContext, System.Boolean))))
   nameWithType: DbEntity<TEntity>.WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbUpdateContext, Boolean>>>)
   nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbUpdateContext, Boolean))))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbUpdateContext,System.Threading.Tasks.Task{System.Boolean}}}})
+  name: WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbUpdateContext, Task<Boolean>>>>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger__1_System_Linq_Expressions_Expression_System_Func___0_System_Func_NEntityDb_Data_Context_IDbUpdateContext_System_Threading_Tasks_Task_System_Boolean_____
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbUpdateContext,System.Threading.Tasks.Task{System.Boolean}}}})
+  name.vb: WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbUpdateContext, Task(Of Boolean)))))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger<TTrigger>(System.Linq.Expressions.Expression<System.Func<TTrigger, System.Func<NEntityDb.Data.Context.IDbUpdateContext, System.Threading.Tasks.Task<System.Boolean>>>>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(Of TTrigger)(System.Linq.Expressions.Expression(Of System.Func(Of TTrigger, System.Func(Of NEntityDb.Data.Context.IDbUpdateContext, System.Threading.Tasks.Task(Of System.Boolean)))))
+  nameWithType: DbEntity<TEntity>.WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbUpdateContext, Task<Boolean>>>>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbUpdateContext, Task(Of Boolean)))))
+- uid: NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbUpdateContext,System.Threading.Tasks.Task}}})
+  name: WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbUpdateContext, Task>>>)
+  href: api/NEntityDb.Data.Model.DbEntity-1.WithTrigger.html#NEntityDb_Data_Model_DbEntity_1_WithTrigger__1_System_Linq_Expressions_Expression_System_Func___0_System_Func_NEntityDb_Data_Context_IDbUpdateContext_System_Threading_Tasks_Task____
+  commentId: M:NEntityDb.Data.Model.DbEntity`1.WithTrigger``1(System.Linq.Expressions.Expression{System.Func{``0,System.Func{NEntityDb.Data.Context.IDbUpdateContext,System.Threading.Tasks.Task}}})
+  name.vb: WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbUpdateContext, Task))))
+  fullName: NEntityDb.Data.Model.DbEntity<TEntity>.WithTrigger<TTrigger>(System.Linq.Expressions.Expression<System.Func<TTrigger, System.Func<NEntityDb.Data.Context.IDbUpdateContext, System.Threading.Tasks.Task>>>)
+  fullName.vb: NEntityDb.Data.Model.DbEntity(Of TEntity).WithTrigger(Of TTrigger)(System.Linq.Expressions.Expression(Of System.Func(Of TTrigger, System.Func(Of NEntityDb.Data.Context.IDbUpdateContext, System.Threading.Tasks.Task))))
+  nameWithType: DbEntity<TEntity>.WithTrigger<TTrigger>(Expression<Func<TTrigger, Func<IDbUpdateContext, Task>>>)
+  nameWithType.vb: DbEntity(Of TEntity).WithTrigger(Of TTrigger)(Expression(Of Func(Of TTrigger, Func(Of IDbUpdateContext, Task))))
 - uid: NEntityDb.Data.Model.DbForeignKey
   name: DbForeignKey
   href: api/NEntityDb.Data.Model.DbForeignKey.html
@@ -13901,6 +14342,18 @@ references:
   commentId: Overload:NEntityDb.Data.Model.DbTrigger.Action
   fullName: NEntityDb.Data.Model.DbTrigger.Action
   nameWithType: DbTrigger.Action
+- uid: NEntityDb.Data.Model.DbTrigger.ActionAsyncMethod
+  name: ActionAsyncMethod
+  href: api/NEntityDb.Data.Model.DbTrigger.ActionAsyncMethod.html#NEntityDb_Data_Model_DbTrigger_ActionAsyncMethod
+  commentId: P:NEntityDb.Data.Model.DbTrigger.ActionAsyncMethod
+  fullName: NEntityDb.Data.Model.DbTrigger.ActionAsyncMethod
+  nameWithType: DbTrigger.ActionAsyncMethod
+- uid: NEntityDb.Data.Model.DbTrigger.ActionAsyncMethod*
+  name: ActionAsyncMethod
+  href: api/NEntityDb.Data.Model.DbTrigger.ActionAsyncMethod.html
+  commentId: Overload:NEntityDb.Data.Model.DbTrigger.ActionAsyncMethod
+  fullName: NEntityDb.Data.Model.DbTrigger.ActionAsyncMethod
+  nameWithType: DbTrigger.ActionAsyncMethod
 - uid: NEntityDb.Data.Model.DbTrigger.ActionMethod
   name: ActionMethod
   href: api/NEntityDb.Data.Model.DbTrigger.ActionMethod.html#NEntityDb_Data_Model_DbTrigger_ActionMethod
@@ -13937,6 +14390,30 @@ references:
   commentId: Overload:NEntityDb.Data.Model.DbTrigger.Execute
   fullName: NEntityDb.Data.Model.DbTrigger.Execute
   nameWithType: DbTrigger.Execute
+- uid: NEntityDb.Data.Model.DbTrigger.ExecuteAsync(NEntityDb.Data.Context.IDbStatementContext,NEntityDb.Data.IDbInstance)
+  name: ExecuteAsync(IDbStatementContext, IDbInstance)
+  href: api/NEntityDb.Data.Model.DbTrigger.ExecuteAsync.html#NEntityDb_Data_Model_DbTrigger_ExecuteAsync_NEntityDb_Data_Context_IDbStatementContext_NEntityDb_Data_IDbInstance_
+  commentId: M:NEntityDb.Data.Model.DbTrigger.ExecuteAsync(NEntityDb.Data.Context.IDbStatementContext,NEntityDb.Data.IDbInstance)
+  fullName: NEntityDb.Data.Model.DbTrigger.ExecuteAsync(NEntityDb.Data.Context.IDbStatementContext, NEntityDb.Data.IDbInstance)
+  nameWithType: DbTrigger.ExecuteAsync(IDbStatementContext, IDbInstance)
+- uid: NEntityDb.Data.Model.DbTrigger.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/NEntityDb.Data.Model.DbTrigger.ExecuteAsync.html
+  commentId: Overload:NEntityDb.Data.Model.DbTrigger.ExecuteAsync
+  fullName: NEntityDb.Data.Model.DbTrigger.ExecuteAsync
+  nameWithType: DbTrigger.ExecuteAsync
+- uid: NEntityDb.Data.Model.DbTrigger.FunctionAsyncMethod
+  name: FunctionAsyncMethod
+  href: api/NEntityDb.Data.Model.DbTrigger.FunctionAsyncMethod.html#NEntityDb_Data_Model_DbTrigger_FunctionAsyncMethod
+  commentId: P:NEntityDb.Data.Model.DbTrigger.FunctionAsyncMethod
+  fullName: NEntityDb.Data.Model.DbTrigger.FunctionAsyncMethod
+  nameWithType: DbTrigger.FunctionAsyncMethod
+- uid: NEntityDb.Data.Model.DbTrigger.FunctionAsyncMethod*
+  name: FunctionAsyncMethod
+  href: api/NEntityDb.Data.Model.DbTrigger.FunctionAsyncMethod.html
+  commentId: Overload:NEntityDb.Data.Model.DbTrigger.FunctionAsyncMethod
+  fullName: NEntityDb.Data.Model.DbTrigger.FunctionAsyncMethod
+  nameWithType: DbTrigger.FunctionAsyncMethod
 - uid: NEntityDb.Data.Model.DbTrigger.FunctionMethod
   name: FunctionMethod
   href: api/NEntityDb.Data.Model.DbTrigger.FunctionMethod.html#NEntityDb_Data_Model_DbTrigger_FunctionMethod
@@ -13949,6 +14426,18 @@ references:
   commentId: Overload:NEntityDb.Data.Model.DbTrigger.FunctionMethod
   fullName: NEntityDb.Data.Model.DbTrigger.FunctionMethod
   nameWithType: DbTrigger.FunctionMethod
+- uid: NEntityDb.Data.Model.DbTrigger.IsAsync
+  name: IsAsync
+  href: api/NEntityDb.Data.Model.DbTrigger.IsAsync.html#NEntityDb_Data_Model_DbTrigger_IsAsync
+  commentId: P:NEntityDb.Data.Model.DbTrigger.IsAsync
+  fullName: NEntityDb.Data.Model.DbTrigger.IsAsync
+  nameWithType: DbTrigger.IsAsync
+- uid: NEntityDb.Data.Model.DbTrigger.IsAsync*
+  name: IsAsync
+  href: api/NEntityDb.Data.Model.DbTrigger.IsAsync.html
+  commentId: Overload:NEntityDb.Data.Model.DbTrigger.IsAsync
+  fullName: NEntityDb.Data.Model.DbTrigger.IsAsync
+  nameWithType: DbTrigger.IsAsync
 - uid: NEntityDb.Data.Model.DbTrigger.Method
   name: Method
   href: api/NEntityDb.Data.Model.DbTrigger.Method.html#NEntityDb_Data_Model_DbTrigger_Method
@@ -14714,6 +15203,21 @@ references:
   commentId: Overload:NEntityDb.Data.Model.ModelExtensions.ToColumn
   fullName: NEntityDb.Data.Model.ModelExtensions.ToColumn
   nameWithType: ModelExtensions.ToColumn
+- uid: NEntityDb.Data.Model.ModelExtensions.WithAsyncTrigger*
+  name: WithAsyncTrigger
+  href: api/NEntityDb.Data.Model.ModelExtensions.WithAsyncTrigger.html
+  commentId: Overload:NEntityDb.Data.Model.ModelExtensions.WithAsyncTrigger
+  fullName: NEntityDb.Data.Model.ModelExtensions.WithAsyncTrigger
+  nameWithType: ModelExtensions.WithAsyncTrigger
+- uid: NEntityDb.Data.Model.ModelExtensions.WithAsyncTrigger``1(NEntityDb.Data.Model.IDbEntity)
+  name: WithAsyncTrigger<TTrigger>(IDbEntity)
+  href: api/NEntityDb.Data.Model.ModelExtensions.WithAsyncTrigger.html#NEntityDb_Data_Model_ModelExtensions_WithAsyncTrigger__1_NEntityDb_Data_Model_IDbEntity_
+  commentId: M:NEntityDb.Data.Model.ModelExtensions.WithAsyncTrigger``1(NEntityDb.Data.Model.IDbEntity)
+  name.vb: WithAsyncTrigger(Of TTrigger)(IDbEntity)
+  fullName: NEntityDb.Data.Model.ModelExtensions.WithAsyncTrigger<TTrigger>(NEntityDb.Data.Model.IDbEntity)
+  fullName.vb: NEntityDb.Data.Model.ModelExtensions.WithAsyncTrigger(Of TTrigger)(NEntityDb.Data.Model.IDbEntity)
+  nameWithType: ModelExtensions.WithAsyncTrigger<TTrigger>(IDbEntity)
+  nameWithType.vb: ModelExtensions.WithAsyncTrigger(Of TTrigger)(IDbEntity)
 - uid: NEntityDb.Data.Model.ModelExtensions.WithConversion(NEntityDb.Data.Model.DbColumn,System.Func{System.Object,System.Object},System.Func{System.Object,System.Object})
   name: WithConversion(DbColumn, Func<Object, Object>, Func<Object, Object>)
   href: api/NEntityDb.Data.Model.ModelExtensions.WithConversion.html#NEntityDb_Data_Model_ModelExtensions_WithConversion_NEntityDb_Data_Model_DbColumn_System_Func_System_Object_System_Object__System_Func_System_Object_System_Object__
@@ -20168,6 +20672,24 @@ references:
   commentId: F:NEntityDb.Exceptions.DbStatementNotSupportedExceptionReason.RightJoin
   fullName: NEntityDb.Exceptions.DbStatementNotSupportedExceptionReason.RightJoin
   nameWithType: DbStatementNotSupportedExceptionReason.RightJoin
+- uid: NEntityDb.Exceptions.DbSyncOperationAsyncTriggerException
+  name: DbSyncOperationAsyncTriggerException
+  href: api/NEntityDb.Exceptions.DbSyncOperationAsyncTriggerException.html
+  commentId: T:NEntityDb.Exceptions.DbSyncOperationAsyncTriggerException
+  fullName: NEntityDb.Exceptions.DbSyncOperationAsyncTriggerException
+  nameWithType: DbSyncOperationAsyncTriggerException
+- uid: NEntityDb.Exceptions.DbSyncOperationAsyncTriggerException.#ctor
+  name: DbSyncOperationAsyncTriggerException()
+  href: api/NEntityDb.Exceptions.DbSyncOperationAsyncTriggerException.-ctor.html#NEntityDb_Exceptions_DbSyncOperationAsyncTriggerException__ctor
+  commentId: M:NEntityDb.Exceptions.DbSyncOperationAsyncTriggerException.#ctor
+  fullName: NEntityDb.Exceptions.DbSyncOperationAsyncTriggerException.DbSyncOperationAsyncTriggerException()
+  nameWithType: DbSyncOperationAsyncTriggerException.DbSyncOperationAsyncTriggerException()
+- uid: NEntityDb.Exceptions.DbSyncOperationAsyncTriggerException.#ctor*
+  name: DbSyncOperationAsyncTriggerException
+  href: api/NEntityDb.Exceptions.DbSyncOperationAsyncTriggerException.-ctor.html
+  commentId: Overload:NEntityDb.Exceptions.DbSyncOperationAsyncTriggerException.#ctor
+  fullName: NEntityDb.Exceptions.DbSyncOperationAsyncTriggerException.DbSyncOperationAsyncTriggerException
+  nameWithType: DbSyncOperationAsyncTriggerException.DbSyncOperationAsyncTriggerException
 - uid: NEntityDb.Exceptions.DbTypeIsNotTriggerException
   name: DbTypeIsNotTriggerException
   href: api/NEntityDb.Exceptions.DbTypeIsNotTriggerException.html
